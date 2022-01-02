@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* components */
+p {
+  line-height: 1.71;
+  color: #757575;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.66x;
+}
+
+h3 {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* /components */
