@@ -25,19 +25,31 @@ h1 {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
   /* color: #ffffff; */
 }
 
 h2 {
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.66x;
+  line-height: 1.66;
 }
 
 h3 {
   font-weight: bold;
+  font-size: 18px;
   line-height: 1.14;
-  text-transform: uppercase;
+}
+
+.btn {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
 }
 
 /* /components */
@@ -59,6 +71,10 @@ h3 {
   /* color: #ffffff; */
 }
 
+.advantages h3 {
+  text-transform: uppercase;
+}
+
 .navigation a:hover {
   color: #2196f3;
 }
@@ -70,6 +86,7 @@ h3 {
 .contacts a {
   color: #757575;
 }
+
 .contacts {
   font-style: normal;
   font-weight: 500;
@@ -89,10 +106,32 @@ h3 {
   line-height: 1.71;
   /* color: #FFFFFF; */
 }
+
 .footer .contacts a {
   color: rgba(255, 255, 255, 0.6);
 }
 
-button {
+.filter button {
   cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+}
+
+.filter button:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.cards p {
+  font-size: 16px;
+}
+
+.team h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
